@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dashboard</title>
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <menu id="menu">
+        <ul class="side-nav">
+            <li>
+                <div class="user-view">
+                    <img src="https://pt.gravatar.com/userimage/39013272/0bf8fded16e7a7c1bed675eb974a8027.jpeg" class="circle">
+                    <span>Erik F.</span>
+                </div>
+            </li>
+            <li><a href=""><i class="material-icons">exit_to_app</i></a></li>
+        </ul>
+    </menu>
+    <section id="page">
+        <header id="header">
+            <nav class="row light-blue">
+                <div class="nav-wrapper col s12">
+                    <a href="#" class="brand-logo hide-on-med-and-down">Digital Marketing</a>
+                    <a href="#" class="brand-logo hide-on-large-only">DM</a>
+                </div>
+            </nav>                    
+        </header>
+        <main id="content">
+            <section class="row">
+                <div class="col m9">
+                    <div class="card">
+                        <div class="card-content">
+                            <span class="title">Posts</span>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Post</th>
+                                        <th>Data</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>title</td>
+                                        <td>data</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col m3">
+                    <div class="card">
+                        <div class="card-content">
+                            <span class="title">Novo post</span>
+                            <form action="" method="post">
+                                <input type="hidden" value="pageid">
+                                <input type="hidden" value="access_key">
+                                <div class="input-field">
+                                    <input id="message" type="text" class="validate">
+                                    <label class="active" for="message">Mensagem</label>
+                                </div>
+                                <div class="input-field">
+                                    <input id="publish_date" type="datetime" class="validate">
+                                    <label class="active" for="publish_date">Data de publicação</label>
+                                </div>
+                                <input type="submit" class="btn">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer id="footer" class="row grey lighten-4">
+            <div class="col s12s"><small>by Erik Figueiredo</small></div>
+        </footer>
+    </section>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+</body>
+</html>

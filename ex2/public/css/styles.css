@@ -1,0 +1,70 @@
+#page {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+#footer {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+#menu {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+#menu .user-view .material-icons {
+    display: block;
+    font-size: 60px;
+}
+
+#menu .side-nav, #menu .side-nav li>a>i.material-icons {
+    text-align: center;
+    color: inherit;
+}
+
+#menu .side-nav li>a>i.material-icons {
+    float: none;
+    display: inline-block;
+    margin: 0;
+    font-size: 30px;
+}
+
+#menu .side-nav li>a {
+    border: 1px solid #424242;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    color: #9e9e9e;
+}
+
+#menu .side-nav li>a:hover {
+    background: #000;
+    color:  #757575;
+}
+
+#menu .side-nav {
+    transform: translateX(0);
+    width: 150px;
+    background: #212121;
+    color: #9e9e9e;
+}
+
+#menu .side-nav .user-view img {
+    margin: 0 auto;
+}
+
+#menu + #page {
+    margin-left: 150px;
+}
+
+#header nav .brand-logo {
+    left: auto;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+}
